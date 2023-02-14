@@ -1,0 +1,83 @@
+critical thinking                                            Managing Anger: 
+communicating under stress                                   Emotional Literacy:                                                            
+time sheet                                                   Managing up: 
+Email Etiquette                                              What is EQ:Emotional Quotient  
+                                                             Self Awareness:      
+using body language:                                         Self REgulation:      
+positive bl                                                  Emotional Intelligence: motivation:
+attitude eyes Facial expression shoulder feet arms.                                :Empathy:
+A:                                                           Social Skills:   
+                    
+aim your feet                                                Improving your EQ:      
+put pen down                                                 Conflict Management Using EQ:       
+
+Tone of Voice:
+volume inflection rate pitch quality
+
+Interpreting body language:
+Gestures faces personalspace eyecontact
+A:
+open your body language
+Eyecontact
+
+The Art of story telling:
+A:
+the time manager need
+the funniest fact
+
+Assertive Communication:
+"I" statement use
+A:
+i think this 
+we are agree to 
+if i may
+calm and clear
+unfo
+
+
+create 5 tables
+insert data with 10 rows
+practise QUESTION N ANS 
+data types 
+   
+
+Agile methodology : iterative (repeated process ) and incremental(adding the new features )
+Scrum: framework it drive the agile principle. project owner scrum master dev &qa team 
+sprint: it is a particular duration of time to complete the user stories 
+product owner coller the use stories or features and he will prepare product bolcklogs after the the team will comlpete sprint meeting in 
+this meeting wht are the requirement have to complete , sprint backlog wat are the commeted stories are available .scrum meeting every day 15 min
+sprint review , sprint rectrospective meeting what went well and wht went wrong .
+protuct backlog is the wish list for the whole life cycle 
+
+
+
+Scanner s=new Scanner(System.in);
+
+int[] arr= {1,2,3,5};
+int count=0;
+for(int i=0;i<arr.length;++i) {
+System.out.println(i);
+if(count==arr.length) {
+	System.out.println("loop is infinity");
+	break;
+}
+//count++;
+i=arr[i];
+}
+System.out.println(count + "this is out");
+	}
+
+
+
+requirement ambiquoti report : 
+1.is user should register with same number 
+
+device deversity :
+ios i phone 14 pro max 16.2 
+    iphone 13 pro max 15
+    
+android sumsung s22 13 
+                s21 12
+design :
+ts tc rtm 
+ exection 
