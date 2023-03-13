@@ -1,0 +1,127 @@
+Locators - Used to find webelements in the webpage or Html code
+           Types of loctors - 8 - id - locator
+		                          name - loctor
+								  class name - locator
+								  xpath - expression
+								  css selector - expression
+								  link text - text
+								  partial link text - text
+								  tag - locator
+								  
+Locators Syntax : Webelement referencevariable = driver.findElement(By.locator("value"));
+              eg :                                            xpath("");
+			                                                  css selector("");
+															  id
+															  name
+															  class name
+															  tag
+															
+						By - Abstract class
+						
+             driver.findElement(By.id("id value"));
+                                   name("nameValue")
+					               classname("classValue")
+					               linktext("textofLink")
+					               partialtext("PartialTextofLink")
+					               tagName("htmlTag")
+								   
+		xpath : //tagname[@attribute = 'value']
+		        //tagname[text() = 'text']
+				
+				 Functions in Xpath : //tagname[contains(@attribute,'value')]
+				                      //tagname[contains(text(),'value')]
+				                      //tagname[starts-with(@attribute,'value')]
+				                      //tagname[ends-with(@attribute,'value')]
+									  //tagname[text()='Epic sadface: Username is required']/text()
+                                      //h3[normalize-space()='text']/text()
+									  
+				
+				For svg - *[name()='svg']
+				
+		CSS : tagname[attribute = 'attributevalue']
+		      no text() for CSS
+			  tagname[attribute* = 'attributevalue'] 
+			          * : contains
+			  tagname[attribute^ = 'attributevalue']
+					  ^ : startswith
+			  tagname[attribute$ = 'attributevalue']
+					  $ : endswith
+					 
+			  
+					  aa. : class
+			  
+			  
+Attribute - Any webelement on webpage having properties	
+																									
+Webelements - Elements present in the webpage are called web elements
+
+To initialise any web browser : WebDriver referencevariable = new WEbBrowserDriver();
+To find web element : referencevariable.findElement(By.locator("value"));
+To pass URL : referencevariable.get("url");
+To pass any value in webpage text field : sendKeys(" ");
+To click any webelement : click();
+
+To initialise a list or arraylist : List<class> referencevariable = new List<>();
+                                         class - Integer
+										         Double 
+												 String
+												 Float
+												 WebElement
+												 
+							        ArrayList<class> referencevariable = new ArrayList<>();
+
+For every collection type, we use "for each" loop.
+for each loop syntax : for(datatype variable1 : variable2){
+                       }
+       variable 1 and variable2 will be having same datatype
+	   loop iterates based on the size of variable2
+
+Assertions - compares Actual Value to Expected Value
+
+             Types - assertEquals - Assert.assertEquals(actual, expected);
+			         assertNotEquals - Assert.assertNotEquals(actual, expected, message);
+					 assertTrue - Assert.assertTrue(condition);
+					 assertFalse - Assert.assertFalse(condition);
+					 assertNull - Assert.assertNull(object);
+					 assertNotNull - Assert.assertNotNull(object);
+	
+Implicit Wait Syntax : driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
+Maximize the Web browser : driver.manage().window().maximize();
+
+What is the drawback of using absolute xpath in Selenium ?
+If there is any dynamic element we cannot find that element
+
+Returntype of  
+Returntype of findElement
+     List of Elements
+	 
+To handle mouse actions : Actions variableName = new Actions(webdriver reference);
+                          variableName.moveToElement(webdriver element).perform();
+						              .contextClick().perform(); - for rightclick
+									  .dragAndDrop(webdriver element, webdriver element).perform();
+									  .doubleClick(webdriver element).perform();
+									  
+Relative Locators : Used in Selenium 4
+                    To locate the element which cannot be located directly.
+         Keywords : below
+		            after
+					near
+					toRightOf
+					toLeftOf
+					
+		 Syntax  : WebElement variableName = driver.findElement(By.name(""));
+		           driver.findElement(RelativeLocator.with(By.tagName("attribute")).RelativeLocatorKeyword(webElement));
+				   
+Difference between xpath and Css selector
+Xpath : Traversing forward and backward is possible
+        Have text() function
+		
+CSS Selector : Traversing only forward is possible, backward is not possible
+               Do not have text() function
+			   
+		 
+									  
+
+	 
+
+	 
