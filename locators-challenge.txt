@@ -1,0 +1,8 @@
+
+//table[starts-with(@class,'table')]/thead/tr/td[text()='Team']/ancestor::table/tbody/tr/td[3]----------------------1
+//img[@alt='Times Now Latest and Breaking News']/parent::a/parent::div/following-sibling::nav-------------------------2
+
+//div[@class='resource-item']/a----------------3
+
+
+
